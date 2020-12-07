@@ -21,7 +21,6 @@
                 <div class="LokacijaVrijeme">
                     <div class="Lokacija">{{weather.name}},  {{weather.sys.country}}</div>
                     <div class="Vrijeme">{{dateBuilder()}}</div>
-                    <div class="Vrijeme">{{lastupdatevalue}}</div>
                 </div>
                 <div class="TempStanje">
                     <div class="Temperatura">{{Math.round(weather.main.temp)}}°C<br/>
